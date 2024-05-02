@@ -1,38 +1,152 @@
-.App {
-  text-align: center;
+.body{
+  width: 100vw;
+  height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*CSS header*/
+.head{
+  width: 100vw;
+  height: 22vh;
   display: flex;
   flex-direction: column;
+}
+.head1{
+  width: 100vw;
+  background-color: red;
+  height: 5vh;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.tagline{
+  color: white;
+  font-weight: bold;
+  font-size: 3vh;
+  font-family: cursive;
+  margin-left: 11vh;
+}
+.head2{
+  background-color: black;
+  height: 17vh;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+.pfLogo{
+  height: 10vh;
+  width: 10vh;
+  margin-left: 10vh;
+  border: 2px solid red;
+  border-radius: 50%;
+  padding: 1vh;
+}
+.pfLogo:hover{
+  cursor: pointer;
+  background-color: red;
+  border: 2px solid white;
+}
+.head2_nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30%;
+}
+.nav_items{
+  margin: 1vw;
+  border: 1.5px solid red;
+  width: 12vh;
+  text-align: center;
+  border-radius: 7px;
+  background-color: black;
+  color:white;
+  padding: 1vh;
+}
+.nav_items:hover{
+  cursor: pointer;
+  background-color: red;
+  border: 1px solid white;
+  color: black;
+  font-weight: 100;
+  width: 18vh;
+  font-size: 3vh;
+}
+.pfHead{
+  color: red;
+  font-weight: bold;
+  font-size: 6vh;
+  margin-left: 2vh;
+  font-family: 'Times New Roman', Times, serif;
+}
+.link_btns{
+  text-decoration: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+/*CSS mainbody*/
+.mainBodyDiv{
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  background-color: red;
+}
+.imgDiv{
+  margin: 1vh;
+}
+.profileImg{
+  height: 60.5vh;
+  width: 50vh;
+  border: 2px solid black;
+}
+.bioDiv{
+  background-color: black;
+  color: white;
+  height: 62vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 73vw;
+  border: 2px solid red;
+  margin-left: 2vh;
+}
+.bio1{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+  font-size: 6vh;
+}
+.bio2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3vh;
+}
+.bio3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*CSS footer*/
+.foot{
+  height: 13vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.footImgs{
+  height: 5vh;
+  width: 5vh;
+  background-color: white;
+  border-radius: 50%;
+}
+.footImgs:hover{
+  cursor: pointer;
+}
+.footBtns{
+  border-radius: 50%;
+  margin: 0 1vh;
+  border: none;
+  cursor: pointer;
+}
+.head_btns_links{
+  text-decoration: none;
+  color: white;
 }
